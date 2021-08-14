@@ -85,7 +85,7 @@ for (let i = 0; i < choices.length; i++) {
 const getResults = () =>{
     switch(userChoice + computerChoice){
         case 'scissorspaper':
-        case 'rockcscissors':
+        case 'rockscissors':
         case 'paperrock':
         resultDisplay.innerHTML ="You win this round!";
         userScore++;
