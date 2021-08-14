@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    height: 4rem;
+    width:70%;
+    background-color: rgb(199, 219, 255);
+    border-radius: 0.3rem;
+    margin: auto;
+}
+.heading{
+    padding-top: 0.3rem;
+}
+.heading,.msg,.round-score{
+    text-align: center;
+}
+.msg{
+ margin-top: 3rem;
+ color: rgb(34, 30, 255);
+}
+.button-container,.round-score,.round-choice{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.btn{
+    margin: 2rem; 
+    height: 10rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    padding-top: 0.3rem;
+}
+img{
+    height: 9rem;
+    width:8rem;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 0rem;
+}
+.reset-button{
+   height: 3rem;
+   width:6rem;
+   font-weight: 600;
+   font-size: 1.3rem;
+   color: white;
+   background-color: blue;
+   border-radius: 0.4rem;
+}
+.reset-button:focus{
+    background-color: white;
+    color: blue;
+}
+.buttc{
+    display: flex;
+    justify-content: center;
+}
+.final-result{
+    text-align: center;
+    color: rgb(255, 64, 207);
+    font-size: 1.8rem;
+}
+.user-choice,.computer-choice{
+    color: rgb(255, 64, 207);
+}
+span{
+    color:blue;
+}
+@media(max-width:800px) {
+    .msg{
+        margin-top: 5rem;
+    }
+    .round-score,.round-choice{
+        display: block;
+        justify-content: space-evenly;
+     }
+     .btn{
+        margin: 0.6rem; 
+        height: 6.5rem;
+        width: 5.5rem;
+        border-radius: 0.5rem;
+        padding-top: 0.3rem;
+    }
+    img{
+        height: 5.5rem;
+        width:4.5rem;
+    }
+    .head{
+        width:100%;
+    }
+}
