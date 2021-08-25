@@ -51,8 +51,8 @@ const trialsLeft = () =>{
      trials = 10;
      userScore = 0;
      computerScore = 0;
-    userInstant.innerHTML = "";
-    computerInstant.innerHTML ="";
+      userInstant.innerHTML = userScore;
+      computerInstant.innerHTML =computerScore;
      FinalResult.style.display = "none"; 
      resetbtn.style.display = "none";
      choicesLeft.innerHTML =trials;
